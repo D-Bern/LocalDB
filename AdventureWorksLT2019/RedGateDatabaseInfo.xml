@@ -62,9 +62,10 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>3</Count>
+    <Count>4</Count>
     <DataFile>SalesLT.ProductCategory_Data.sql</DataFile>
     <DataFile>SalesLT.ProductDescription_Data.sql</DataFile>
     <DataFile>SalesLT.ProductModel_Data.sql</DataFile>
+    <DataFile>dbo.Colors_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
