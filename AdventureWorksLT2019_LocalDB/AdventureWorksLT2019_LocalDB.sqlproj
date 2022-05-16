@@ -35,7 +35,7 @@
     <Baselining>FolderBased</Baselining>
     <Provisioner>CustomScripts</Provisioner>
     <DeployChangesExecutionOrder>d1f940ee-e0d6-59f0-a77d-d9c0c212d3f4|Programmable Objects\dbo\Stored Procedures\uspPrintError.sql;b626f028-dc9b-54e7-9b36-6810092c3f64|Programmable Objects\dbo\Stored Procedures\uspLogError.sql</DeployChangesExecutionOrder>
-    <IncludeObjectsInDataSync>Table=[SalesLT].[ProductCategory];Table=[SalesLT].[ProductDescription];Table=[SalesLT].[ProductModel]</IncludeObjectsInDataSync>
+    <IncludeObjectsInDataSync>Table=[SalesLT].[ProductCategory];Table=[SalesLT].[ProductDescription];Table=[dbo].[Colors]</IncludeObjectsInDataSync>
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -205,6 +205,9 @@
     <None Include="Schema-Model\SalesLT\Types\XML Schema Collections\ProductDescriptionSchemaCollection.sql" />
     <None Include="Migrations\0.0.1-Baseline data\readme.txt" />
     <None Include="Migrations\0.0.1-Baseline data\001_20220516-1219_dbernier.sql" />
+    <None Include="Migrations\0.0.1-Baseline data\002_20220516-1322_dbernier.sql" />
+    <None Include="Schema-Model\dbo\Tables\Colors.sql" />
+    <None Include="Migrations\0.0.1-Baseline data\003_20220516-1323_dbernier.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Initialize_Deployment.sql" />
