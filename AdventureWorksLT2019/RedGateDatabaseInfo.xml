@@ -62,6 +62,9 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>3</Count>
+    <DataFile>SalesLT.ProductCategory_Data.sql</DataFile>
+    <DataFile>SalesLT.ProductDescription_Data.sql</DataFile>
+    <DataFile>SalesLT.ProductModel_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
