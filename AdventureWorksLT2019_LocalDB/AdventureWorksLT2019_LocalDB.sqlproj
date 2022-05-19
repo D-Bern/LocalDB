@@ -211,6 +211,11 @@
     <None Include="Migrations\0.0.1-Baseline data\003_20220516-1323_dbernier.sql" />
     <None Include="Migrations\0.0.1-Baseline data\004_20220519-1425_dbernier.sql" />
     <None Include="Schema-Model\dbo\Tables\Beer.sql" />
+    <None Include="Schema-Model\dbo\Tables\Brewer.sql" />
+    <None Include="Migrations\0.0.2-Changes\005_Add_table_Brewer.sql" />
+    <None Include="Migrations\0.0.2-Changes\004_Add_table_Beer.sql" />
+    <None Include="Migrations\0.0.2-Changes\003_Insert_Colors.sql" />
+    <None Include="Migrations\0.0.2-Changes\002_Add_table_Colors.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Initialize_Deployment.sql" />
