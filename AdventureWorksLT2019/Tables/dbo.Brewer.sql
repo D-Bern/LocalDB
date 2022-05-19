@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Brewer]
+(
+[BrewerID] [int] NOT NULL IDENTITY(1, 1)
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Brewer] ADD CONSTRAINT [PK_Brewer] PRIMARY KEY CLUSTERED ([BrewerID]) ON [PRIMARY]
+GO
